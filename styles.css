@@ -1,0 +1,61 @@
+body {
+  top: 10px;
+  color: blue;
+  position: relative;
+  margin-left: 180px;
+  width: 652px;
+  display: block;
+}
+
+.current-city {
+  position: relative;
+  left: 50;
+}
+
+span {
+  display: inline-block;
+}
+
+.first {
+  position: relative;
+}
+
+.second {
+  position: relative;
+  left: 80px;
+}
+
+.cityName {
+  position: relative;
+  left: 78px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.forecast {
+  position: relative;
+  left: 10px;
+  font-weight: 500;
+  background: transparent;
+}
+
+img {
+  width: 40px;
+}
+
+a {
+  text-decoration-line: none;
+  font-weight: bold;
+}
+
+.current {
+  background: rgb(7, 7, 204);
+  color: whitesmoke;
+}
+
+.description {
+  text-transform: capitalize;
+  font-size: 18px;
+}
