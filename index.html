@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-  <div class="border">
+  <div class="border" >
     
       <form id="city-form">
         <input type="text" id="city-input" placeholder="Enter your city" autofocus = "on" autocomplete="off">
@@ -28,19 +28,24 @@
       </form>
   <br />
   <br />
-  <div class="temperature">
+  <div class="row">
+    <div class="col-2">
+       <span class="first">
+      <h1 > <span class="temp" id="temp"></span><div class="description" id="description" ></div></h1>
+    </span>
+    </div>
+    <div class="col-2"><div class="temperature">
     <h3 class="cityName" id="city-name"></h3>
     <span class="second">
       <h2 class="current-city" id="current-city">
         <br />10:00am <br />
         Friday, July 2
       </h2>
-    <span class="first">
-      <h1 > <span class="temp" id="temp"></span><div class="description" id="description" ></div></h1>
-    </span>
-    
     </span>
   </div>
+  </div>
+  </div>
+  
   <br />
   <br>
   <div class="forecast">

@@ -18,16 +18,17 @@ span {
 
 .first {
   position: relative;
+  left: 20px;
 }
 
 .second {
   position: relative;
-  left: 80px;
+  left: 50px;
 }
 
 .cityName {
   position: relative;
-  left: 78px;
+  left: 50px;
 }
 
 h1 {
@@ -61,4 +62,8 @@ a {
 .description {
   text-transform: capitalize;
   font-size: 18px;
+}
+
+button {
+  background-color: blue;
 }
