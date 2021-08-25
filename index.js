@@ -75,4 +75,4 @@ let weekDays = [
   "Saturday",
 ];
 let weekDay = weekDays[now.getDay()];
-h2.innerHTML = ` ${weekDay} ${hours}:${minutes}`;
+h2.innerHTML = ` ${weekDay}${hours}:${minutes}`;
